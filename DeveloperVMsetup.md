@@ -77,4 +77,5 @@ All commands assume 'sudo' (root) priviledges.
     * gedit "/etc/default/docker"
     * service docker start
     * Add: DOCKER_OPTS="--graph=/home/secure/Desktop/.dockerRuntime"
+    * Remove the runtime area created when docker first installed: rm -r /var/lib/docker
 
