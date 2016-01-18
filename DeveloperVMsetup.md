@@ -75,7 +75,8 @@ All commands assume 'sudo' (root) priviledges.
     * service docker stop
     * mkdir "/home/<useraccount>/Desktop/.dockerRuntime" directory in user's workspace.
     * gedit "/etc/default/docker"
-    * service docker start
     * Add: DOCKER_OPTS="--graph=/home/secure/Desktop/.dockerRuntime"
-    * Remove the runtime area created when docker first installed: rm -r /var/lib/docker
+    * Save the file & close gedit
+    * Remove the runtime area created when docker first installed: rm r /var/lib/docker
+    * service docker start
 
