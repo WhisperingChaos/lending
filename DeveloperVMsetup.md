@@ -1,7 +1,7 @@
 ## Install
 ### Upgrade Ubuntu 12.04 kernel
 * Purpose:
-  * Docker Engine features requires kernel 3.13
+  * Update Docker Engine to required kernel 3.13
 * References:
   * [Docker Install Instructions](https://docs.docker.com/engine/installation/ubuntulinux/)
 * Packages
