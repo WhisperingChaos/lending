@@ -1,4 +1,5 @@
 ## Install
+All commands assume 'sudo' (root) priviledges.
 ### Upgrade Ubuntu 12.04 kernel
 * Purpose:
   * Update Docker Engine to required kernel 3.13
@@ -72,7 +73,7 @@
       The OS image is a relatively small partition, while the Workspace is a much larger one.  Since a user's Docker images should persist until removed by the owning user and since images can be relatively large, they should be stored to the user's mutable workspace.
   * Install Instructions:
     * service docker stop
-    * Create ".dockerRuntime" directory in user's workspace.
+    * mkdir "/home/<useraccount>/Desktop/.dockerRuntime" directory in user's workspace.
     * gedit "/etc/default/docker"
     * service docker start
     * Add: DOCKER_OPTS="--graph=/home/secure/Desktop/.dockerRuntime"
