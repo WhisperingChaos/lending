@@ -21,4 +21,47 @@
    * apt-get update
    * apt-get purge lxc-docker
    * apt-get install docker-engine
+ Update Eclipse Nodeclipse
+ * Purpose:
+   * Update Eclipse Kepler and install Nodeclipse.  Nodeclipse configures Eclipse IDE to support node.js development.
+ * Update Eclipse:
+   * Start Eclipse and check for available updates.
+   * Select the following updates:
+     * Eclipse Git Team Provider	4.1.1.201511131810-r
+     * Java implementation of Git	4.1.1.201511131810-r
+   * Restart Eclipse and Update Kepler to use Java 8 as this is needed by latest nodeclipse
+   * Reference: [Java 8 Kepler Update](https://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_For_Kepler)
+     * Select Help|Install New Software
+     * Paste into "Work with:" http://download.eclipse.org/eclipse/updates/4.3-P-builds/
+     * Select Eclipse Java 8 Support
+     * Continue process to install Java 8 Support.
+     * Restart Eclipse.
+     * Due to errors regarding FireFox Update Firefoc
+       *Purpose: Update firefox due to eclipse error during upgrade to java 8.
+       * Verson 43.0.4
+       * Install Instructions:
+         * Start terminal and run "synaptic" command.
+         * Find "firefox" and request update.
+         * Apply update.
+     * Java 8
+       * Puprose: Install Java 8 Support to support nodeclipse.
+       * Reference: http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/
+       * Install Instructions:
+         * Support only through PPA: add-apt-repository ppa:openjdk-r/ppa
+         * apt-get update
+         * apt-get install openjdk-8-jdk
+         * Make sure that Java 8 is default: update-alternatives --config java
+ ### Install curl
+* Purpose:
+  * Permit install of node.js
+  * Install Instructions:
+    * apt-get update
+    * apt-get install curl
+ ### Install node.js
+   * Version: 0.12.9
+   * Reference:
+     * [nodesource.com](https://nodesource.com/blog/nodejs-v012-iojs-and-the-nodesource-linux-repositories/)
+   * Install Instructions:
+     * curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+     * apt-get install -y nodejs
 
