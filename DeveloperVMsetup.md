@@ -91,6 +91,7 @@ All commands assume 'sudo' (root) priviledges.
       * Personalize git user settings:
         * Window → Preferences → Team → Git → Configuration
           * Ensure correct values user.name & user.email
+          * Add key: branch.autosetuprebase=always
       * Use Git repository menu:
         * to clone the lending project from git hub.
         * set github user's authentication
