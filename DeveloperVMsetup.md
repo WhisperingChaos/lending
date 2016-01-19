@@ -95,3 +95,21 @@ All commands assume 'sudo' (root) priviledges.
       * Use Git repository menu:
         * to clone the lending project from git hub.
         * set github user's authentication
+ ### Install Chrome
+  * Purpose: Used with node inspector to remotely debug node.js in container
+  * Reference: http://tecadmin.net/install-google-chrome-in-ubuntu/#
+  * Install Instructions:
+    * use synaptic package installer.
+    * However to get latest version
+      * wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+      * sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+      * apt-get update
+      * apt-get install google-chrome-stable
+     * Chrome Settings:
+       *  disable Continue runnnig background apps when google chrome is closed.
+       *  disable offer to save web passwords.
+       *  set font size to large
+       *  set as default browser
+       *  enable do not track
+       *  disable Adobe Flash Player
+       *  block third party cookies
