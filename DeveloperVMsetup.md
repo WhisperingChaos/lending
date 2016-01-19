@@ -79,4 +79,18 @@ All commands assume 'sudo' (root) priviledges.
     * Save the file & close gedit
     * Remove the runtime area created when docker first installed: rm r /var/lib/docker
     * service docker start
-
+### Intergrate git & Eclipse
+  * Reference: http://www.vogella.com/tutorials/EclipseGit/article.html
+  * Install Instructions:
+    * Create a 'git' repository root node: mkdir /home/<useraccount>/Desktop/git
+    * Configure Eclipse to use this directory as default root node:
+      * Window → Preferences → Team → Git → Configuration 
+        * Change 'Location' field to reflect new root node.
+      * display eclipse icons for git on eclipse's toolbar:
+        *  Window+Perspective → Customize perspective
+      * Personalize git user settings:
+        * Window → Preferences → Team → Git → Configuration
+          * Ensure correct values user.name & user.email
+      * Use Git repository menu:
+        * to clone the lending project from git hub.
+        * set github user's authentication
