@@ -113,3 +113,11 @@ All commands assume 'sudo' (root) priviledges.
        *  enable do not track
        *  disable Adobe Flash Player
        *  block third party cookies
+ ### Install HP7410 Printer Driver
+  * Purpose: Provide printing from applicaitons.
+  * Reference: https://help.ubuntu.com/community/HpAllInOne
+  * Install Instructions:
+    * start terminal
+    * Answer prompts by: hp-setup -i 192.168.1.197
+    * set HP7410 printer as the default in Chrome & Open Office.
+ 
