@@ -45,7 +45,7 @@ All commands assume 'sudo' (root) priviledges.
          * Find "firefox" and request update.
          * Apply update.
      * Java 8
-       * Puprose: Install Java 8 Support to support nodeclipse.
+       * Purpose: Install Java 8 Support to support nodeclipse.
        * Reference: http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/
        * Install Instructions:
          * Support only through PPA: add-apt-repository ppa:openjdk-r/ppa
