@@ -1,0 +1,1 @@
+-d -p 8787:8787 -v /home/secure/Desktop/git/lending/rbase/project:/home/rstudio/project
