@@ -9,3 +9,5 @@ Typically, there are several directories created in the root of the R project to
 * scripts - these are in the root directory
 
 R Hidden Directories - the rdata is in github, the locking files and junk are excluded from github
+
+Note: Always use sessionInfo() to list all related pkges and drop it into output
