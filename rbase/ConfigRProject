@@ -1,0 +1,11 @@
+#Configuring R Studio Projects
+
+Typically, there are several directories created in the root of the R project to partition the necessary files:
+* R - files with function definitions, nothing that runs, only function defs
+* data - stores all data files - these are not stored in github and contain all data used in analysis. It is read-only. Clean up is in the scripts
+* doc - the analysis writeup
+* figs - the generated files with figures, these should be automatically recreated by the scripts
+* output - sim output, processed datasets (cleaned up), logs, or other WIPs
+* scripts - these are in the root directory
+
+R Hidden Directories - the rdata is in github, the locking files and junk are excluded from github
